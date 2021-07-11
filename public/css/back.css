@@ -1,0 +1,38 @@
+.nav-sidebar .nav-item > .nav-link
+{
+    transition: .3s;
+    border-radius: 0;
+}
+
+
+.navbar-white
+{
+    background-color: #343a40;
+
+}
+
+.navbar-white .nav-link i
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-white .nav-link .badge
+{
+    font-size: 12px;
+    right: 5px;
+    top: 2px;
+    color: #fff;
+}
+
+
+.navbar-white .nav-link .badge.badge-warning
+{
+    background-color: #45827c;
+}
+
+
+.main-footer
+{
+    background: #343a40;
+}

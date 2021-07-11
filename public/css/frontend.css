@@ -1,0 +1,728 @@
+*
+{
+
+}
+
+body
+{
+  font-family: Ubuntu;
+
+}
+
+@font-face {
+  font-family: ArabicFont;
+  src: url('../fonts/Cairo/Cairo-Regular.ttf');
+}
+@font-face {
+  font-family: Ubuntu;
+  src: url('../fonts/Ubuntu/Ubuntu-Regular.ttf');
+}
+
+/************ Start Upper Bar ************/
+.upperbar
+{
+  width: 100%;
+  background-color: #4ea1d2;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.scrollTop
+{
+  width: 50px;
+  height: 50px;
+  background-color: #4ea1d2;
+  position: fixed;
+  right: 20px;
+  bottom: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+  line-height: 55px;
+  transition: .3s
+}
+
+.scrollTop:hover
+{
+  background-color: #e9616d
+}
+
+/*************** Start and Header Navbar  ***************/
+
+.navbar
+{
+  margin-bottom: 0px;
+  box-shadow: 0 -3px 18px #4ea1d2
+}
+
+.navbar-brand
+{
+  width: 50px
+}
+
+.navbar-brand img
+{
+  width: 100%
+}
+
+.navbar-light .navbar-nav .nav-link.activeLink,
+.navbar-light .navbar-nav .nav-link.activeLink:hover,
+.navbar-light .navbar-nav .nav-link.activeLink:focus,
+.navbar-light .navbar-nav .nav-link.activeLink:active
+{
+  color: #e9616d;
+  transform: translateY(-3px);
+}
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:active
+{
+  transition: .3s
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:focus
+{
+  color: #e9616d !important;
+transform: translateY(-3px);
+}
+
+
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active,
+.navbar-light .navbar-nav .nav-link:focus
+{
+  color: #4ea1d2;
+  font-size: 18px
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand:active,
+.navbar-light .navbar-brand:focus
+{
+  color: #4ea1d2;
+    font-size: 24px
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu
+{
+  position: absolute;
+  top: 68px;
+  border-radius: 0;
+  width: 200px;
+  background-color: #4ea1d2;
+  padding: 0
+}
+
+.dropdown-item
+{
+  color: #fff !important;
+  transition: .3s;
+  padding: 5px 20px
+}
+
+.dropdown-item:hover
+{
+  color: #4ea1d2 !important;
+  transform: scale(1.05);
+}
+
+
+.header
+{
+  width: 100%;
+  min-height: 500px;
+  background-image: url('../images/new/bg.jpg');
+  background-size: cover;
+  color: #fff;
+  padding: 40px 0
+}
+
+.header h3
+{
+  font-size: 40px;
+  line-height: 1.5em
+}
+
+.header h3 span
+{
+  background-color: #4ea1d2;
+  color: #fff;
+  padding: 5px
+}
+
+.header h3 span.two
+{
+  background-color: #fff;
+  color: #c6647b;
+  padding: 5px
+}
+
+.header .myImage
+{
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  padding-top: 50px
+}
+
+.header .myImage img
+{
+  width: 100%;
+  border-radius: 50%;
+  transition: 1s;
+  border:8px solid #e9616d
+}
+
+.header .myImage img:hover
+{
+  transform: rotate(360deg);
+
+}
+
+.header  .button
+{
+  margin-top: 80px
+}
+
+.header  .button a
+{
+  background-color: #fff;
+  padding: 20px 60px;
+  color: #c6647b;
+  border-radius: 50px;
+  border: 4px solid #e9616d;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Ubuntu;
+  font-weight: bold;
+  transition: .3s
+}
+
+.header  .button a:hover
+{
+    background-color: #c6647b;
+    border: 4px solid #fff;
+    color: #fff;
+
+}
+
+
+/**************** About Section ******************/
+.about .box
+{
+  padding: 20px 0;
+  width: 100;
+  min-height: 100px;
+  box-shadow: 0 0 10px #ccc;
+  transition: .3s;
+  margin-bottom: 30px
+}
+
+.about .box:hover
+{
+  transform: scale(1.01);
+  box-shadow: 0 0 10px #4ea1d2;
+}
+
+.about .box .myImage
+{
+  text-align: center;
+  padding: 10px 0
+}
+
+.about .box .myImage img
+{
+  width: 150px;
+  height: 150px
+}
+
+/****************** Services *******************/
+
+.services .box
+{
+  padding: 20px 0;
+  width: 100;
+  min-height: 100px;
+  box-shadow: 0 0 10px #ccc;
+  transition: .3s;
+  margin-bottom: 30px
+}
+
+.services .box .myImage
+{
+  text-align: center;
+  padding: 10px 0
+}
+
+.services .box .myImage i
+{
+  color: #4ea1d2
+}
+
+
+/************** AllCourses ****************/
+
+.allcourses .box
+{
+  padding: 20px 0;
+  width: 100;
+  min-height: 100px;
+  box-shadow: 0 0 10px #ccc;
+  transition: .3s;
+  margin-bottom: 30px
+}
+
+.allcourses .box .myImage
+{
+  text-align: center;
+  padding: 10px 0
+}
+
+.allcourses .box .myImage i
+{
+  color: #4ea1d2
+}
+
+
+
+/****************** Start Our Classes Section ***************/
+.our-classes
+{
+  padding: 80px 0 20px 0
+}
+
+.our-classes h3
+{
+  color: #fff;
+  background-color: #4ea1d2;
+  padding: 10px 20px;
+  width: 250px;
+  margin: auto;
+  position: relative;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.our-classes h3::after
+{
+  content: '';
+  position: absolute;
+  border-top: 20px solid #4ea1d2;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: 52px;
+  left: 50%;
+  margin-left: -10px
+}
+
+.our-classes .allBox
+{
+  margin: 80px 0
+}
+
+.our-classes .allBox .myImage
+{
+  width: 100%
+}
+
+.our-classes .allBox .myImage img
+{
+  width: 100%;
+}
+
+
+/************* Start Courses Section *********/
+
+.our-courses
+{
+
+}
+
+.our-courses h3
+{
+  color: #fff;
+  background-color: #4ea1d2;
+  padding: 10px 20px;
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  position: relative;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.our-courses h3::after
+{
+  content: '';
+  position: absolute;
+  border-top: 20px solid #4ea1d2;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: 52px;
+  left: 50%;
+  margin-left: -10px
+}
+
+.our-courses .allcourses .box
+{
+  padding: 0;
+  margin:0;
+  transition: .3s;
+
+}
+
+.our-courses .allcourses .box:hover
+{
+  transform: scale(1.01);
+  box-shadow: 0 0 10px #4ea1d2
+}
+
+.our-courses .allcourses .myImage
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 250px
+}
+
+
+.our-courses .allcourses .myImage img
+{
+  width: 100%;
+  height: 220px;
+
+}
+
+
+.our-courses .allcourses h4
+{
+  color: #4ea1d2;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0;
+  padding: 0
+}
+
+.our-courses .allcourses .allInfo
+{
+  margin: 0;
+  padding: 0;
+  color: #c6647b;
+  font-size: 20px;
+  text-align: center;
+}
+
+.our-courses .allcourses .allInfo .price
+{
+  position: relative;
+}
+
+.our-courses .allcourses .allInfo .price::after
+{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  left: 5px;
+  top: 10px
+}
+
+
+
+/*************** Start Style the footer **************/
+.footer
+{
+  width: 100%;
+  min-height: 400px;
+  background-image: url('../images/new/footer.png');
+  background-size: cover;
+  margin-top: 50px;
+
+}
+
+.footer .overlay
+{
+  width: 100%;
+  min-height: 400px;
+  background-color: rgba(0,48,97,.7);
+    padding: 30px 0
+}
+
+.footer .overlay .links a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  transition: .3s
+}
+
+.footer .overlay .links a:hover
+{
+  color: #ff8966
+}
+
+.footer .overlay .links h4
+{
+  color: #ff8966;
+  margin: 0;
+  margin-bottom: 20px
+}
+
+.footer .overlay .communicate a
+{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px
+}
+
+.footer .overlay .communicate h4
+{
+  color: #ff8966;
+  margin: 0;
+  margin-bottom: 20px
+}
+
+.footer .overlay .communicate i
+{
+  color: #fff
+}
+
+.footer .overlay .communicate p
+{
+  color: #fff;
+  font-size: 18px
+}
+
+.footer .overlay .communicate .socialmedia i
+{
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  color:#4ea1d2;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  margin-right: 20px;
+  cursor: pointer;
+  transition: .3s
+}
+
+.footer .overlay .communicate .socialmedia i:hover
+{
+  background-color: #e9616d;
+  color: #fff
+}
+
+
+/************** Start Statistics **************/
+.statistics
+{
+  padding: 10px 0;
+  margin-top: 80px;
+  margin-bottom: 120px
+}
+
+.statistics h3
+{
+  color: #fff;
+  background-color: #4ea1d2;
+  padding: 10px 20px;
+  text-align: center;
+  width: 250px;
+  margin: auto;
+  position: relative;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+.statistics h3::after
+{
+  content: '';
+  position: absolute;
+  border-top: 20px solid #4ea1d2;
+  border-left: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid transparent;
+  top: 52px;
+  left: 50%;
+  margin-left: -10px
+}
+
+.statistics .statBox
+{
+  padding: 20px 0;
+  border-left: 5px solid #4ea1d2;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  border-right: 5px solid #eee;
+  text-align: center;
+  transition: .3s;
+  margin-bottom: 30px;
+}
+
+.statistics .statBox:hover
+{
+  box-shadow: 0 0 10px #eee;
+  border-right: 5px solid #e9616d;
+  transform: scale(1.05);
+}
+
+
+.statistics .statBox i
+{
+  color: #e9616d
+}
+
+.statistics .statBox span
+{
+  color: #4ea1d2;
+  font-size: 25px
+}
+
+.statistics .statBox h5
+{
+  color: #e9616d
+}
+
+/**************** Start Styling Single Course Page ************************/
+
+.showSingleCourse .myImage
+{
+  width: 700px;
+  margin: 30px auto;
+}
+
+.showSingleCourse .myImage img
+{
+  width: 100%
+}
+
+
+/****************** Style All Courses Section *****************/
+
+.courses .allcourses .box
+{
+  padding: 0;
+  margin: 0;
+  transition: .3s;
+}
+
+/* Pagination */
+.pagination
+{
+  padding-left: 500px;
+}
+
+.courses .allcourses .box:hover
+{
+  transform: scale(1.01);
+  box-shadow: 0 0 10px #4ea1d2
+}
+
+.courses .allcourses .myImage
+{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 250px
+}
+
+
+.courses .allcourses .myImage img
+{
+  width: 100%;
+  height: 220px;
+
+}
+
+
+.courses .allcourses h4
+{
+  color: #4ea1d2;
+  font-size: 20px;
+  font-weight: bold;
+  margin:0;
+  padding: 0
+}
+
+.courses .allcourses .allInfo
+{
+  margin: 0;
+  padding: 0;
+  color: #c6647b;
+  font-size: 20px;
+  text-align: center;
+}
+
+.courses .allcourses .allInfo .price
+{
+  position: relative;
+}
+
+.courses .allcourses .allInfo .price::after
+{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  background-color: red;
+  left: 5px;
+  top: 10px
+}
+
+/*************** Style For Comments **************/
+
+.forComments
+{
+
+}
+
+.forComments .allComments .commentTitle
+{
+  background-color: #eee;
+  padding: 15px 25px ;
+  position: relative;
+  top: 10px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.forComments .allComments .commentTitle::after
+{
+  content: '';
+  position: absolute;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 30px solid #eee;
+  left: -40px;
+
+}
+
+.forComments .allComments .namesAndDate span.name
+{
+  background-color: #4ea1d2;
+  color: #fff;
+  padding: 5px
+}
+
+.forComments .allComments .namesAndDate span.date
+{
+  background-color: #e9616d;
+  color: #fff;
+  padding: 5px
+}
+
+
+/***************** loginForm *************/
